@@ -1,0 +1,55 @@
+/*
+ * "Copyright ist Aberglaube - Float Fix" by mm
+ *       This CSS was written by ampersize
+ *  based on the Easterhegg08-Design by Pallas
+ *
+ *      follow the white rabbit to cologne
+*/
+
+/* lets begin folks - first the "normal"-things */
+body {
+  padding:0;
+  margin:0;
+  width:100%;
+  color:black;
+  font-family: sans-serif, serif;
+  background: #D9E3EC;
+}
+
+/* Wich guy in the nineties decided that images need a border? WTF? */
+img { border: 0px; margin:0px; padding: 0px;}
+
+table {
+  background-color:white;
+  margin: 20px auto;
+  padding: 5px;
+  border: solid 1px #273F54; 
+}
+
+h1 {
+  text-align:center;
+  margin-top:20px;
+  text-decoration:underline
+}
+
+
+a {
+  text-decoration:none;
+  color: black;
+  line-height:32px;
+}
+
+a:hover {
+  background-color: #D9E3EC;
+  color: white;
+}
+
+tr{
+  hover:expression(this.onmouseover=new Function("this.style.border='solid 1px #273F54';"),this.onmouseout=new Function("this.style.border='none';"));
+}
+
+hr { color: #273F54; }
+
+
+h1:before{content:"<< ";}
+h1:after{content:" >>";}
